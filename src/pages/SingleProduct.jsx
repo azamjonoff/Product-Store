@@ -17,7 +17,6 @@ function SingleProduct() {
 
   return (
     <div className="max-w-[800px] w-[100%] mx-auto px-12">
-      <Navbar />
       <div className="max-w-[600px] w-[100%] mx-auto px-12 py-5 rounded-xl bg-base-200">
         {product && (
           <div className="grid gap-y-4">
